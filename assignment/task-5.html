@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 - Z-index Example</title>
+    <style>
+        .z-box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .z1 {
+            background: yellow;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        .z2 {
+            background: green;
+            left: 120px;
+            top: 120px;
+            z-index: 2;
+        }
+
+        .z3 {
+            background: blue;
+            left: 140px;
+            top: 140px;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="z-box z1">1</div>
+    <div class="z-box z2">2</div>
+    <div class="z-box z3">3</div>
+</body>
+
+</html>
